@@ -3,9 +3,19 @@
   <channel>
     <title>Tags on Frostbitten Carpe Diem</title>
     <link>http://dying4ever.cyou/tags/</link>
-    <description>Recent content in Tags on Frostbitten Carpe Diem</description>
+    <description>Recent content from Frostbitten Carpe Diem</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <atom:link href="http://dying4ever.cyou/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <managingEditor>xxx@example.com (D-Sketon)</managingEditor>
+    <webMaster>xxx@example.com (D-Sketon)</webMaster>
+    
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    
+    
+    <atom:link href="http://dying4ever.cyou/tags/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
   </channel>
 </rss>
