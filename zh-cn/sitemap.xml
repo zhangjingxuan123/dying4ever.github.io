@@ -2,40 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:53790/categories/</loc>
+    <loc>http://dying4ever.cyou/</loc>
+    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:53790/en/categories/"
+                href="http://dying4ever.cyou/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:53790/categories/"
+                href="http://dying4ever.cyou/"
                 />
   </url><url>
-    <loc>http://localhost:53790/</loc>
+    <loc>http://dying4ever.cyou/post/hello/</loc>
+    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://dying4ever.cyou/archives/</loc>
+    <lastmod>2022-07-26T21:46:25+08:00</lastmod>
+  </url><url>
+    <loc>http://dying4ever.cyou/post/</loc>
+    <lastmod>2022-07-26T21:46:25+08:00</lastmod>
+  </url><url>
+    <loc>http://dying4ever.cyou/about/</loc>
+    <lastmod>2022-06-09T20:12:52+08:00</lastmod>
+  </url><url>
+    <loc>http://dying4ever.cyou/friend/</loc>
+    <lastmod>2022-06-09T20:12:52+08:00</lastmod>
+  </url><url>
+    <loc>http://dying4ever.cyou/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:53790/en/"
+                href="http://dying4ever.cyou/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:53790/"
+                href="http://dying4ever.cyou/categories/"
                 />
   </url><url>
-    <loc>http://localhost:53790/tags/</loc>
+    <loc>http://dying4ever.cyou/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:53790/en/tags/"
+                href="http://dying4ever.cyou/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:53790/tags/"
+                href="http://dying4ever.cyou/tags/"
                 />
   </url>
 </urlset>

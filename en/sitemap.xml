@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:53790/en/categories/</loc>
+    <loc>http://dying4ever.cyou/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:53790/categories/"
+                href="http://dying4ever.cyou/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:53790/en/categories/"
+                href="http://dying4ever.cyou/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:53790/en/</loc>
+    <loc>http://dying4ever.cyou/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:53790/"
+                href="http://dying4ever.cyou/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:53790/en/"
+                href="http://dying4ever.cyou/en/"
                 />
   </url><url>
-    <loc>http://localhost:53790/en/tags/</loc>
+    <loc>http://dying4ever.cyou/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:53790/tags/"
+                href="http://dying4ever.cyou/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:53790/en/tags/"
+                href="http://dying4ever.cyou/en/tags/"
                 />
   </url>
 </urlset>

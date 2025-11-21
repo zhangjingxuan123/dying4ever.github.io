@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Frostbitten Carpe Diem</title>
-    <link>http://dying4ever.cyou/</link>
+    <link>http://dying4ever.cyou/post/</link>
     <description>Recent content from Frostbitten Carpe Diem</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate>
     
     
-    <atom:link href="http://dying4ever.cyou/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="http://dying4ever.cyou/post/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     

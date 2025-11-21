@@ -2,12 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>http://localhost:53790/zh-cn/sitemap.xml</loc>
+    <loc>http://dying4ever.cyou/zh-cn/sitemap.xml</loc>
+    
+      <lastmod>2023-03-15T11:00:00-07:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>http://localhost:53790/en/sitemap.xml</loc>
+    <loc>http://dying4ever.cyou/en/sitemap.xml</loc>
     
   </sitemap>
   
