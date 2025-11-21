@@ -331,6 +331,10 @@ body [data-aos="zoom-in"] {
   content: "\e619";
 }
 
+.icon-email:before {
+  content: "\e63c";
+}
+
 .sidebar-toc-btn:before {
   font-family: "iconfont";
   content: "\e633";
@@ -2176,7 +2180,7 @@ mjx-container::-webkit-scrollbar {
 .article-entry pre,
 .article-entry code,
 .article-entry kbd {
-  font-family: "Menlo", "Monaco", "Consolas", "monospace", "Menlo", "Monaco", "Consolas", "monospace", "Menlo", "Monaco", "Consolas", "monospace";
+  font-family: "Ubuntu Mono", "Source Code Pro", "JetBrains Mono", "Ubuntu Mono", "Source Code Pro", "JetBrains Mono", "Menlo", "Monaco", "Consolas", "monospace";
   font-size: 15px;
   transition: 0.3s;
   word-break: break-word;
@@ -3104,6 +3108,18 @@ mjx-container::-webkit-scrollbar {
 
 .sidebar-social-icon:hover {
   transform: scale(1.2);
+}
+
+.icon-email {
+  color: var(--red-2);
+}
+
+.icon-github {
+  color: #191717;
+}
+
+[data-theme="dark"] .icon-github {
+  color: #bc88ff;
 }
 
 .sidebar-menu {
