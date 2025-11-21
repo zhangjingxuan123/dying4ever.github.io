@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Frostbitten Carpe Diem</title>
-    <link>http://localhost:63611/dying4ever.github.io/archives/</link>
+    <link>https://zhangjingxuan123.github.io/dying4ever.github.io/archives/</link>
     <description>Recent content from Frostbitten Carpe Diem</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
@@ -15,7 +15,7 @@
     <lastBuildDate></lastBuildDate>
     
     
-    <atom:link href="http://localhost:63611/dying4ever.github.io/archives/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://zhangjingxuan123.github.io/dying4ever.github.io/archives/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
