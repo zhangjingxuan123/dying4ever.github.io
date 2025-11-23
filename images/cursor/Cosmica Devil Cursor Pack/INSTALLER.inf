@@ -1,0 +1,63 @@
+; This installer is an INF file (setup information file) that allows the installation of a cursor scheme through right-click > Install
+
+; Required section/value for this to work
+[Version]
+signature="$CHICAGO$"
+
+; Copy cursors to DefaultDestDir defined in DestinationDirs section below
+; Create new cursor scheme (in registry)
+[DefaultInstall]
+CopyFiles = CursorFileNames.Devil
+AddReg = CursorSchemeRegisteryEntry.Devil
+
+; 10 => Windows directory (%SystemRoot%) + subdirectory as defined in Strings section
+[DestinationDirs]
+DefaultDestDir = 10,"%CursorSchemeDirectory%"
+
+; Definition of the cursor scheme registry entry (which is what is created when a scheme is manually saved in Mouse Properties)
+[CursorSchemeRegisteryEntry.Devil]
+HKCU,"Control Panel\Cursors\Schemes","%CursorSchemeName%",0x00020000,"%SYSTEMROOT%\%CursorSchemeDirectory%\Cosmica Devil\%Arrow%,%SYSTEMROOT%\%CursorSchemeDirectory%\Cosmica Devil\%Help%,%SYSTEMROOT%\%CursorSchemeDirectory%\Cosmica Devil\%AppStarting%,%SYSTEMROOT%\%CursorSchemeDirectory%\Cosmica Devil\%Wait%,%SYSTEMROOT%\%CursorSchemeDirectory%\Cosmica Devil\%Crosshair%,%SYSTEMROOT%\%CursorSchemeDirectory%\Cosmica Devil\%IBeam%,%SYSTEMROOT%\%CursorSchemeDirectory%\Cosmica Devil\%NWPen%,%SYSTEMROOT%\%CursorSchemeDirectory%\Cosmica Devil\%No%,%SYSTEMROOT%\%CursorSchemeDirectory%\Cosmica Devil\%SizeNS%,%SYSTEMROOT%\%CursorSchemeDirectory%\Cosmica Devil\%SizeWE%,%SYSTEMROOT%\%CursorSchemeDirectory%\Cosmica Devil\%SizeNWSE%,%SYSTEMROOT%\%CursorSchemeDirectory%\Cosmica Devil\%SizeNESW%,%SYSTEMROOT%\%CursorSchemeDirectory%\Cosmica Devil\%SizeAll%,%SYSTEMROOT%\%CursorSchemeDirectory%\Cosmica Devil\%UpArrow%,%SYSTEMROOT%\%CursorSchemeDirectory%\Cosmica Devil\%Hand%,%SYSTEMROOT%\%CursorSchemeDirectory%\Cosmica Devil\%Pin%,%SYSTEMROOT%\%CursorSchemeDirectory%\Cosmica Devil\%Person%"
+
+
+; CopyFiles does not allow %strkey% tokens, which is why we have to list our cursors here in addition to the Strings section
+[CursorFileNames.Devil]
+Cosmica Devil/alt select.cur
+Cosmica Devil/busy.ani
+Cosmica Devil/default.cur
+Cosmica Devil/diagonal resize 1.cur
+Cosmica Devil/diagonal resize 2.cur
+Cosmica Devil/handwriting.cur
+Cosmica Devil/help select.cur
+Cosmica Devil/horizontal resize.cur
+Cosmica Devil/link select.cur
+Cosmica Devil/location select.cur
+Cosmica Devil/move.cur
+Cosmica Devil/person select.cur
+Cosmica Devil/precision select.cur
+Cosmica Devil/text select.cur
+Cosmica Devil/unavailable.cur
+Cosmica Devil/vertical resize.cur
+Cosmica Devil/working.ani
+
+
+; Our scheme and cursor names, they are defined here so they can be used as %strkey% tokens
+[Strings]
+CursorSchemeDirectory = "Cursors\Cosmica Devil"
+CursorSchemeName = "Cosmica Devil"
+AppStarting = "working.ani"
+Arrow = "default.cur"
+Crosshair = "precision select.cur"
+Hand = "link select.cur"
+Help = "help select.cur"
+IBeam = "text select.cur"
+No = "unavailable.cur"
+NWPen = "handwriting.cur"
+Person = "person select.cur"
+Pin = "location select.cur"
+SizeAll = "move.cur"
+SizeNESW = "diagonal resize 2.cur"
+SizeNS = "vertical resize.cur"
+SizeNWSE = "diagonal resize 1.cur"
+SizeWE = "horizontal resize.cur"
+UpArrow = "alt select.cur"
+Wait = "busy.ani"
