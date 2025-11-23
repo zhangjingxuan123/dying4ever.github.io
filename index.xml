@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frostbitten Carpe Diem</title>
+    <link>https://dying4ever.cyou/</link>
+    <description>Recent content from Frostbitten Carpe Diem</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+    <managingEditor>zhangjingxuan4874@gmail.com (小宇)</managingEditor>
+    <webMaster>zhangjingxuan4874@gmail.com (小宇)</webMaster>
+    
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    
+    <lastBuildDate>Sat, 15 Mar 2025 11:00:00 -0700</lastBuildDate>
+    
+    
+    <atom:link href="https://dying4ever.cyou/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Hello World</title>
+      <link>https://dying4ever.cyou/post/hello/</link>
+      <pubDate>Sat, 15 Mar 2025 11:00:00 -0700</pubDate>
+      <author>zhangjingxuan4874@gmail.com (小宇)</author>
+      <guid>https://dying4ever.cyou/post/hello/</guid>
+      <description>
+        <![CDATA[<h1>Hello World</h1><p>作者：小宇（zhangjingxuan4874@gmail.com）</p>
+        
+          <p>💘 hello 💘</p>
+        
+        <hr><p>本文2025-03-15首发于<a href='https://dying4ever.cyou/'>Frostbitten Carpe Diem</a>，最后修改于2025-03-15</p>]]>
+      </description>
+      
+    </item>
+    
+  </channel>
+</rss>
